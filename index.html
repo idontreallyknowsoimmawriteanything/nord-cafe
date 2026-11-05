@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nord Cafe | Premium Coffee Experience</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- LOADING SCREEN -->
+    <div id="loader">
+        <div class="loader-content">
+            <h1>NORD<span>.</span></h1>
+            <div class="loader-line"></div>
+            <p>PREPARING YOUR COFFEE EXPERIENCE</p>
+        </div>
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <div class="logo">NORD<span>.</span></div>
+
+        <ul>
+            <li><a href="#home"><i class="fas fa-house"></i> Home</a></li>
+            <li><a href="#about"><i class="fas fa-mug-hot"></i> About</a></li>
+            <li><a href="#menu"><i class="fas fa-book-open"></i> Menu</a></li>
+            <li><a href="#gallery"><i class="fas fa-images"></i> Gallery</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+
+        <button id="theme-toggle" aria-label="Switch color theme">
+            <i class="fas fa-sun"></i>
+        </button>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <p class="subtitle">WELCOME TO NORD CAFE</p>
+
+        <h1>Experience Coffee<br>Differently.</h1>
+
+        <p class="description">
+            Discover the perfect balance of taste, atmosphere and quality.
+        </p>
+
+        <a href="#menu" class="button">
+            Discover Our Menu <i class="fas fa-arrow-right"></i>
+        </a>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+
+        <div class="about-content">
+
+            <div class="about-text">
+
+                <p class="section-subtitle">OUR STORY</p>
+
+                <h2>More Than Just Coffee.</h2>
+
+                <p>
+                    At Nord Cafe, we believe coffee is more than just a drink.
+                    It's a moment to relax, connect and enjoy life.
+                </p>
+
+                <p>
+                    From carefully selected coffee beans to our welcoming
+                    atmosphere, every detail matters.
+                </p>
+
+                <a href="#contact" class="button">Visit Us</a>
+
+            </div>
+
+            <div class="about-image">
+                <img src="images/coffee.jpg" alt="Fresh coffee">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- MENU -->
+    <section class="menu" id="menu">
+
+        <p class="section-subtitle">OUR SELECTION</p>
+
+        <h2>Discover Our Menu.</h2>
+
+        <p class="menu-description">
+            Carefully crafted drinks and treats for every moment.
+        </p>
+
+        <!-- MENU FILTER BUTTONS -->
+        <div class="menu-filters">
+
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="coffee">Coffee</button>
+            <button class="filter-btn" data-filter="tea">Tea</button>
+            <button class="filter-btn" data-filter="desserts">Desserts</button>
+
+        </div>
+
+        <!-- MENU CARDS -->
+        <div class="menu-items">
+
+            <!-- ESPRESSO -->
+            <div class="menu-card" data-category="coffee">
+                <img src="images/espresso.jpg" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>Rich, bold and full of character.</p>
+                <div class="price">€2.50</div>
+            </div>
+
+            <!-- CAPPUCCINO -->
+            <div class="menu-card" data-category="coffee">
+                <img src="images/cappuccino.jpg" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>Perfect espresso with creamy milk foam.</p>
+                <div class="price">€3.50</div>
+            </div>
+
+            <!-- LATTE -->
+            <div class="menu-card" data-category="coffee">
+                <img src="images/latte.jpg" alt="Latte">
+                <h3>Cafe Latte</h3>
+                <p>Smooth espresso with silky steamed milk.</p>
+                <div class="price">€3.80</div>
+            </div>
+
+            <!-- TEA -->
+            <div class="menu-card" data-category="tea">
+                <img src="images/tea.jpg" alt="Classic Tea">
+                <h3>Classic Tea</h3>
+                <p>A comforting and refreshing cup of tea.</p>
+                <div class="price">€2.80</div>
+            </div>
+
+            <!-- CHOCOLATE CAKE -->
+            <div class="menu-card" data-category="desserts">
+                <img src="images/chococake.jpg" alt="Chocolate Cake">
+                <h3>Chocolate Cake</h3>
+                <p>A delicious sweet treat for your coffee break.</p>
+                <div class="price">€4.20</div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery" id="gallery">
+
+        <p class="gallery-subtitle">OUR ATMOSPHERE</p>
+
+        <h2>A Taste of Nord.</h2>
+
+        <p class="gallery-description">
+            Discover the little moments that make every visit special.
+        </p>
+
+        <div class="gallery-grid">
+
+            <div class="gallery-item">
+                <img src="images/coffee.jpg" alt="Fresh coffee">
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/espresso.jpg" alt="Espresso">
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/cappuccino.jpg" alt="Cappuccino">
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/latte.jpg" alt="Latte">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+
+        <p class="section-subtitle">COME SAY HELLO</p>
+
+        <h2>Visit Nord Cafe.</h2>
+
+        <p class="contact-description">
+            We'd love to welcome you.
+        </p>
+
+        <div class="contact-info">
+
+            <div>
+                <i class="fas fa-location-dot"></i>
+                <h3>Our Location</h3>
+                <p>123 Coffee Street, Your City</p>
+            </div>
+
+            <div>
+                <i class="fas fa-clock"></i>
+                <h3>Opening Hours</h3>
+                <p>Monday – Sunday</p>
+                <p>08:00 – 20:00</p>
+            </div>
+
+            <div>
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+                <p>hello@nordcafe.com</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Nord Cafe. All rights reserved.</p>
+        <p>Crafted with <span>♥</span> and coffee.</p>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
